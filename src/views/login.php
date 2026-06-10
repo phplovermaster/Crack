@@ -24,7 +24,7 @@ if (isset($_SESSION['user_id']) && !empty($_SESSION['user_id'])) {
         <h1 class="auth-title">Bem-vindo de volta</h1>
         <p class="auth-subtitle">Entre com sua conta para continuar</p>
 
-        <form method="POST" action="../controller/LoginController.php" class="form" novalidate>
+        <form method="POST" action="../controller/logincontroller.php" class="form" novalidate>
             <div class="field">
                 <label for="email">E-mail</label>
                 <input

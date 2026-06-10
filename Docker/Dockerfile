@@ -34,5 +34,5 @@ RUN a2enmod rewrite
 #
 # Este arquivo personaliza o Apache para:
 #   - Desativar listagem de arquivos nos diretórios (-Indexes)
-#   - Bloquear acesso às pastas docker/ e config/ pelo navegador
-COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf
+#   - Bloquear acesso às pastas Docker/ e config/ pelo navegador
+COPY Docker/apache.conf /etc/apache2/sites-available/000-default.conf

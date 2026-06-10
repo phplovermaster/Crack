@@ -21,7 +21,7 @@ require_once __DIR__ . '/../config/authcheck.php';
             <p class="panel-description">Tem certeza que deseja encerrar sua sessão?</p>
 
             <div class="panel-actions">
-                <form method="POST" action="../controller/LogoutController.php">
+                <form method="POST" action="../controller/logoutcontroller.php">
                     <button type="submit" class="btn-danger">Sim, sair</button>
                 </form>
                 <a href="userpanel.php" class="btn-secondary">Cancelar</a>
