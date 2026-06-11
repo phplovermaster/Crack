@@ -1,10 +1,5 @@
 <?php
-require_once __DIR__ . '/../config/data.php';
-session_start();
-if (isset($_SESSION['user_id']) && !empty($_SESSION['user_id'])) {
-    header("Location: ../views/dashboard.php");
-    exit();
-}
+require_once __DIR__ . '/../config/logincheck.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
